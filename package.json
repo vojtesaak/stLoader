@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Storyous/stLoader"
+    "url": "https://github.com/vojtesaak/stLoader"
   },
   "main": "src/js/index.js",
   "system": {

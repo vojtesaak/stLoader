@@ -1,0 +1,26 @@
+
+{{#if type}}
+    <div class="loader-container">
+
+        <div class="loader">
+            <div class="animations">
+
+                {{#loadingLoader}}
+                    <span class="animation loading"></span>
+                {{/loadingLoader}}
+
+                {{#successLoader}}
+                    <span class="animation success"></span>
+                {{/successLoader}}
+
+                {{#fullLoader}}
+                    <span class="animation success"></span>
+                    <span class="animation loading"></span>
+                {{/fullLoader}}
+
+            </div>
+            <div class="cup"></div>
+            <div class="text">Custom Loading...</div>
+        </div>
+    </div>
+{{/if}}
